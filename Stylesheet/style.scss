@@ -1,0 +1,47 @@
+@import './reset';
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+}
+main {
+  background-color: rgba(127, 255, 212, 0.549);
+}
+
+.container {
+  max-width: 1600px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  .inputDiv {
+    input {
+      width: 30%;
+      font-size: 2rem;
+      margin: 2rem;
+    }
+  }
+  .ImageDiv {
+    height: 50rem;
+    overflow: auto;
+    img {
+      width: 30%;
+      height: 40%;
+      margin: 1rem;
+      border-radius: 10px;
+    }
+  }
+}
+.ImageDiv::-webkit-scrollbar {
+  display: none;
+}
